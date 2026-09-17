@@ -24,11 +24,15 @@ $classes = [
     new FitnessClass("Strength Fundamentals", "Marcus Lee", 25.00, 2, 2),
     new FitnessClass("HIIT Express", "Marcus Lee", 22.50, 4, 4)
 ];
-
+$paymemts = [ 
+    new Payment (18.00),
+    new Payment (25.00),
+    new Payment (22.50)
+];
 $bookingScenarios = [
     ["Jordan Miles", "Beginner Yoga", "Credit Card"],
     ["Priya Shah", "Strength Fundamentals", "PayPal"],
-    ["Luis Rivera", "Beginner Yoga", "PayPal"]
+    ["Luis Rivera", "HIIT Express", "PayPal"]
 ];
 
 foreach ($members as $member) {
